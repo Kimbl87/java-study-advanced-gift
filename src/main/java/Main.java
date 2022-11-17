@@ -19,7 +19,8 @@ public class Main {
         System.out.println("Выберите выполняемую задачу\n1 - Задача на массив\n2 - Задача про подарок\nДругое - песочница");
         switch (sc.next()){
             case "1":
-                System.out.println("1 - Задача на массив");
+                System.out.println("1 - Задача на массив: \n");
+                CreateArray.createArray();
                 break;
             case "2":
                 System.out.println("2 - Задача про подарок");

@@ -11,11 +11,11 @@ public class CreateArray {
     static final int MIN = -10;
     static int[] arr = new int[ARRAY_LENGTH];
 
-    public static void main(String[] args) {
+    public static void createArray () {
         //Переменные храниния максимального отрицательного/минимального положительного
         int maxNegative = -11;
         int minPositive = 11;
-        System.out.print("Сгенерированный массив: ");
+        System.out.print("Сгенерированный массив: \n");
         //Наполняем массив и печатаем его
         for (int i = 0; i < ARRAY_LENGTH; i++) {
             arr[i] = (int) ((Math.random() * ((MAX - MIN) + 1)) + MIN);
@@ -46,7 +46,7 @@ public class CreateArray {
             }
         } else System.out.println("Не было ни одного отрицательниого или ни одного положительного числа");
         //Печатаем итоговый массив
-        System.out.print("\nИтоговый массив: ");
+        System.out.print("\n\nИтоговый массив: \n");
         for (int i = 0; i < ARRAY_LENGTH; i++) {
             System.out.printf("[%d]:%d ", i, arr[i]);
         }
