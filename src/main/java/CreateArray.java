@@ -4,8 +4,6 @@
 //        - Ќужно найти максимальный отрицательный и минимальный положительный элементы массива
 //        - ѕомен€ть их местами.
 
-package randomArray;
-
 public class CreateArray {
 
     static final int ARRAY_LENGTH = 20;
