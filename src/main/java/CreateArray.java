@@ -20,7 +20,7 @@ public class CreateArray {
         for (int i = 0; i < ARRAY_LENGTH; i++) {
             arr[i] = (int) ((Math.random() * ((MAX - MIN) + 1)) + MIN);
             System.out.printf("[%d]:%d ", i, arr[i]);
-            //Выясняем является ли значение массива максимальным отрицательным/минимальным положительным, если да обновляем переменную
+            //Выясняем является ли значение массива "максимальным отрицательным"/"минимальным положительным", если да обновляем переменную
             if (arr[i] == 0) continue;
             if (arr[i] / Math.abs(arr[i]) == 1) {
                 if (arr[i] < minPositive) minPositive = arr[i];
@@ -30,7 +30,7 @@ public class CreateArray {
             } else
                 System.out.println("Ни отрицательное,  ни положительное, ни ноль... Или в коде или в мироздании ошибка");
         }
-        //Меняем макс отрицательные и мин положительные местами
+        //Меняем максимальные отрицательные и минимальные положительные местами
         if ((maxNegative != -11 & minPositive != 11)) { //Если вдруг все нули
             for (int i = 0; i < ARRAY_LENGTH; i++) {
                 if (arr[i] == maxNegative) {
