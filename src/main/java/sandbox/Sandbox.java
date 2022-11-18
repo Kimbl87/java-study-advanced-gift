@@ -5,7 +5,8 @@ import sandbox.staff.Pencil;
 import sandbox.staff.Staff;
 
 public class Sandbox {
-    public static void main(String[] args) {
+    public static void sandbox() {
+        System.out.println("Запущен класс для эксперементов");
         Pen pen1 = new Pen("Pen1", 19.9, "some pen");
         Pencil pencil1 = new Pencil("Pencil1", 10.99,"10l");
         Pencil pencil2 = new Pencil();

@@ -3,7 +3,7 @@ package giftBasket;
 import giftBasket.nomenclature.*;
 
 public class Basket {
-    public static void main(String[] args) {
+    public static void basket() {
         Candy redCandy = new Candy("Red candy", 6.5, 0.2, "red");
         Candy yellowCandy = new Candy("Yellow candy", 6.5, 0.25, "yellow");
         Candy kingSizeCandy = new Candy("King size candy", 12, 0.6, "rainbow");
@@ -42,7 +42,7 @@ public class Basket {
         }
 
 
-        System.out.println("Total price: $" + String.format("%.2f", totalPrice));
+        System.out.println("\nTotal price: $" + String.format("%.2f", totalPrice));
         System.out.println("Total weight, gram: " + String.format("%.2f", totalWeight));
     }
 }

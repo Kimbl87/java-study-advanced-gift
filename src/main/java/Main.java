@@ -11,22 +11,26 @@
 //        - Найти общий вес подарка, общую стоимость подарка
 //        - Вывести на консоль информацию о всех сладостях в подарке
 
+import giftBasket.Basket;
+import sandbox.Sandbox;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Выберите выполняемую задачу\n1 - Задача на массив\n2 - Задача про подарок\nДругое - песочница");
+        System.out.println("Выберите выполняемую задачу\n1 - Задача на массив\n2 - Задача про подарок");
         switch (sc.next()){
             case "1":
                 System.out.println("1 - Задача на массив: \n");
                 CreateArray.createArray();
                 break;
             case "2":
-                System.out.println("2 - Задача про подарок");
+                System.out.println("2 - Задача про подарок: \n");
+                Basket.basket();
                 break;
             default:
-                System.out.println("Песочница");
+                Sandbox.sandbox();
         }
         sc.close();
     }

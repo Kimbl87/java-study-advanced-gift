@@ -30,6 +30,7 @@ public class CreateArray {
             } else
                 System.out.println("Ни отрицательное,  ни положительное, ни ноль... Или в коде или в мироздании ошибка");
         }
+        System.out.println(1);
         //Меняем максимальные отрицательные и минимальные положительные местами
         if ((maxNegative != -11 & minPositive != 11)) { //Если вдруг все нули
             for (int i = 0; i < ARRAY_LENGTH; i++) {
