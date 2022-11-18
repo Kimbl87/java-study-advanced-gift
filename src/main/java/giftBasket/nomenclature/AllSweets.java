@@ -40,5 +40,6 @@ public class AllSweets {
     @Override
     public String toString() {
         return "name = " + name + ", weight = " + weightGram + "g, price = $" + price;
+
     }
 }
