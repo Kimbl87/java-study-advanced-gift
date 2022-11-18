@@ -1,6 +1,6 @@
 package giftBasket.nomenclature;
 
-public class Lollipops extends AllSweets{
+public class Lollipops extends AllSweets {
     private double diameter;
 
     public Lollipops(String name, double weighGram, double price, double diameter) {
@@ -19,7 +19,7 @@ public class Lollipops extends AllSweets{
     @Override
     public String toString() {
         return "Lollipops [" + super.toString() +
-                ", diameter=" + diameter +
+                ", diameter = " + diameter +
                 ']';
     }
 }

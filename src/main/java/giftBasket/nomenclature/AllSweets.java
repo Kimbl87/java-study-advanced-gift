@@ -1,6 +1,6 @@
-//- У каждой сладости есть название, вес, цена и свой уникальный параметр
 
 package giftBasket.nomenclature;
+
 
 public class AllSweets {
     private String name;
@@ -39,6 +39,6 @@ public class AllSweets {
 
     @Override
     public String toString() {
-        return "name = " + name + ", weight in grams = " + weightGram + ", price = " + price;
+        return "name = " + name + ", weight = " + weightGram + "g, price = $" + price;
     }
 }

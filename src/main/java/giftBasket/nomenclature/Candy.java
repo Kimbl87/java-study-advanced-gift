@@ -19,7 +19,7 @@ public class Candy extends AllSweets {
     @Override
     public String toString() {
         return "Candy [" + super.toString() +
-                ", color='" + color + '\'' +
+                ", color = '" + color + '\'' +
                 ']';
     }
 }

@@ -1,6 +1,6 @@
 package giftBasket.nomenclature;
 
-public class Jellybean extends AllSweets{
+public class Jellybean extends AllSweets {
     private String flavor;
 
     public Jellybean(String name, double weighGram, double price, String flavor) {
@@ -19,7 +19,7 @@ public class Jellybean extends AllSweets{
     @Override
     public String toString() {
         return "Jellybean [" + super.toString() +
-                ", flavor='" + flavor + '\'' +
+                ", flavor = '" + flavor + '\'' +
                 ']';
     }
 }
